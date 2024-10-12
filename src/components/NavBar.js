@@ -30,7 +30,6 @@ const NavBar = () => {
       ) : (
         <p></p>
       )}
-      <button onClick={handleGoogleSignIn}>Se connecter avec Google</button>
     </nav>
   );
 };
